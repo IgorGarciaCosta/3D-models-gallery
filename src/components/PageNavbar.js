@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import '../components/PageNavbar.css'
 import React from 'react';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 class PageNavbar extends React.Component {
     render() {
