@@ -11,6 +11,8 @@ class ModelImage extends React.Component {
             showLightBox: false,
         };
         this._onButtonClick = this._onButtonClick.bind(this);
+        this._onCloseButtonClick = this._onCloseButtonClick.bind(this);
+        
     }
 
     _onButtonClick() {
@@ -19,19 +21,26 @@ class ModelImage extends React.Component {
         });
     }
 
+    _onCloseButtonClick() {
+        this.setState({
+            showLightBox: false,
+        });
+    }
 
+    
     render() {
         return (
             <div>
                 <img
                     src={this.props.url}
                     alt="model"
-                    //<Lightbox image={this.props.url} title={this.props.title}></Lightbox>
-                    onClick={ this._onButtonClick }
+                    onClick={this._onButtonClick}
                 />
-                {this.state.showLightBox ? <Lightbox image={this.props.url} title={this.props.title}></Lightbox> : null}
+                {this.state.showLightBox ? <Lightbox
+                    image={this.props.url}
+                    title={this.props.title}
+                    onClose={this._onCloseButtonClick} /> : null}
             </div>
-            //new ImageLighBox(this.props)
 
         );
     }
