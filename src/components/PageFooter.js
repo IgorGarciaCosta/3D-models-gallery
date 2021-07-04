@@ -8,7 +8,7 @@ class PageFooter extends React.Component {
             <MDBFooter className="font-small pt-4 mt-4">
                 <div className="footer-copyright text-center py-3">
                     <MDBContainer className="text" fluid>
-                        &copy; {new Date().getFullYear()} Igor Garcia: <a target='_blank' href="https://github.com/IgorGarciaCosta"> github.com/IgorGarciaCosta </a>
+                        &copy; {new Date().getFullYear()} Igor Garcia: <a target='_blank' rel="noreferrer" href="https://github.com/IgorGarciaCosta"> github.com/IgorGarciaCosta </a>
                     </MDBContainer>
                 </div>
             </MDBFooter>
