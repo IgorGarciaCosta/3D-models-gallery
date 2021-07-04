@@ -2,7 +2,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './ModelImage.css'
 import Lightbox from "react-awesome-lightbox";
-import "react-awesome-lightbox/build/style.css";
+import "./LightBox.css";
 
 class ModelImage extends React.Component {
     constructor(props) {
