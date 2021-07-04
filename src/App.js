@@ -1,6 +1,7 @@
 import './components/PageNavbar';
 import './App.css';
 import PageNavbar from './components/PageNavbar';
+import PageFooter from './components/PageFooter';
 import ImageGrid from './components/ImageGrid';
 import React, { Component } from 'react';
 
@@ -13,6 +14,7 @@ function App() {
       </header>
       <h1 className="tituloDoGrid">Modelos 3D</h1>
       <ImageGrid />
+      <PageFooter/>
     </div>
   );
 }

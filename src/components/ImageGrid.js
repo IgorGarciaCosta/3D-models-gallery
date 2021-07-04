@@ -1,6 +1,5 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import { Container, Row, Col, } from 'react-bootstrap';
 import ModelImage from '../components/ModelImage';
 import { Grid } from '@material-ui/core'
 
