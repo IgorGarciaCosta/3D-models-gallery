@@ -14,14 +14,13 @@ class PageNavbar extends React.Component {
                         <Nav.Link href="#features">Quem sou eu</Nav.Link>
                         <Nav.Link href="#pricing">Currículo</Nav.Link>
                         <NavDropdown title="Contato" id="collasible-nav-dropdown">
-                            <NavDropdown.Item href="#action/3.1">Instagram</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Linkedin</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Deviant art</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+                            <NavDropdown.Item className="itens" target='_blank' rel="noreferrer" href="https://www.instagram.com/igorgccs/">Instagram</NavDropdown.Item>
+                            <NavDropdown.Item className="itens" target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/igor-garcia-5a449a1b5/">Linkedin</NavDropdown.Item>
+                            <NavDropdown.Item className="itens" target='_blank' rel="noreferrer" href="https://www.deviantart.com/igor-garcia">Deviant art</NavDropdown.Item>
+                            
                         </NavDropdown>
                     </Nav>
-                    
+
                 </Navbar.Collapse>
             </Navbar>
 

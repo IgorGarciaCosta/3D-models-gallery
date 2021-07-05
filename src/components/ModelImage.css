@@ -1,7 +1,7 @@
 img{
     width: 80%;
     margin: 2vh 0 2vh 0;
-    transition:.3s all ease-in-out;
+    transition:.15s all ease-in-out;
 }
 
 img:hover{
