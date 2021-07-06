@@ -5,7 +5,9 @@ import PageFooter from './components/PageFooter';
 import ImageGrid from './components/ImageGrid';
 import React, { Component } from 'react';
 
+
 function App() {
+ 
   return (
     <div className="App">
       <header className="App-header">
