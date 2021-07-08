@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import PageNavbar from '../components/PageNavbar';
+import './AboutPage.css'
 
 function AboutPage() {
     return (

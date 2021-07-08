@@ -1,8 +1,18 @@
-.titulo{
+.titulo {
     margin-left: 2rem;
 }
-.itens{
+
+.itens {
     font-size: 18px;
     font-weight: bold;
 }
 
+.divisor {
+   background-color: rgb(97, 97, 97);
+   width: 97%;
+   
+}
+
+.itens_nav .divisor{
+    margin: 0 auto;
+}
