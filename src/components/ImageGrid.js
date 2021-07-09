@@ -7,6 +7,9 @@ class ImageGrid extends React.Component {
     render() {
         return (
             <Grid lg={12} item container spacing={0}>
+                <Grid item lg={4} xs={6}><ModelImage title="Luffy-1" url="https://modelos3d6.webnode.com/_files/200000023-a38caa38cc/luffy2.png" /></Grid>
+                <Grid item lg={4} xs={6}><ModelImage title="Luffy-2" url="https://modelos3d6.webnode.com/_files/200000021-6837768379/luffy5.png" /></Grid>
+                <Grid item lg={4} xs={6}><ModelImage title="Luffy-3" url="https://modelos3d6.webnode.com/_files/200000022-18fe218fe4/luffy4.png" /></Grid>
                 <Grid item lg={4} xs={6}><ModelImage title="Hand-1" url="https://modelos3d6.webnode.com/_files/200000000-2bb3e2bb40/hand1.png" /></Grid>
                 <Grid item lg={4} xs={6}><ModelImage title="Hand-2" url="https://modelos3d6.webnode.com/_files/200000001-12a9112a93/hand2.png" /></Grid>
                 <Grid item lg={4} xs={6}><ModelImage title="Hand-3" url="https://modelos3d6.webnode.com/_files/200000002-242e0242e2/hand4.png" /></Grid>
