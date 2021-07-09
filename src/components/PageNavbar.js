@@ -11,6 +11,7 @@ const PageNavbar = () => {
     const handleClick = () => history.push('/about');
     const handleClickLogo = () => history.push('/app');
     return (
+
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Navbar.Brand href="" onClick={handleClickLogo} className="titulo">Portifólio</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -19,9 +20,9 @@ const PageNavbar = () => {
                     <Nav.Link href="" onClick={handleClick}>
                         Quem sou eu
                     </Nav.Link>
-                    <NavDropdown.Divider className="divisor"/>
+                    <NavDropdown.Divider className="divisor" />
                     <Nav.Link href={Pdf} target="_blank">Currículo</Nav.Link>
-                    <NavDropdown.Divider className="divisor"/>
+                    <NavDropdown.Divider className="divisor" />
                     <NavDropdown title="Contato" id="collasible-nav-dropdown">
                         <NavDropdown.Item className="itens" target='_blank' rel="noreferrer" href="https://www.instagram.com/igorgccs/">Instagram</NavDropdown.Item>
                         <NavDropdown.Item className="itens" target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/igor-garcia-5a449a1b5/">Linkedin</NavDropdown.Item>
@@ -32,6 +33,7 @@ const PageNavbar = () => {
 
             </Navbar.Collapse>
         </Navbar>
+
 
     );
 

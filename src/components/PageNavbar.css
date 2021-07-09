@@ -2,6 +2,7 @@
     margin-left: 2rem;
 }
 
+
 .itens {
     font-size: 18px;
     font-weight: bold;
@@ -15,4 +16,11 @@
 
 .itens_nav .divisor{
     margin: 0 auto;
+}
+
+/* If the screen size is 900px or more*/
+@media (min-width: 990px) {
+    .itens_nav .divisor{
+        display: none;
+    }
 }

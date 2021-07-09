@@ -9,7 +9,8 @@ import AboutPage from './pages/AboutPage';
 ReactDOM.render((
   <BrowserRouter>
     <Switch>
-      <Route exact path="/app" component={App} />
+      <Route exact path="/" component={App} />
+      <Route path="/app" component={App} />
       <Route path="/about" component={AboutPage} />
     </Switch>
   </BrowserRouter>),

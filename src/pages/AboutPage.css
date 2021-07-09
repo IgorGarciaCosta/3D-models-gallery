@@ -2,3 +2,32 @@
 *{
   font-family: 'Poiret One', cursive;
 }
+
+.page_body{
+  display: flex;
+  justify-content: space-around;
+  margin: 18px 0;
+
+}
+.profile_img{
+  margin: 3rem;
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+}
+.profile_img:hover{
+  transform: none;
+}
+
+.my_name{
+  margin: 3rem;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.descricao{
+  margin: 3rem;
+  font-size: 23px;
+  text-align: justify;
+  width: 70%;
+}
